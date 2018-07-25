@@ -1,0 +1,38 @@
+body{
+    background-color: yellowgreen;
+    font-size: 24px;
+}
+section{
+    width: 600px;
+    margin: 0 auto;
+}
+.fixedPositionDiv{
+    text-align: center;
+    position: relative;
+    background-color:gray;
+    width: auto;
+    height: auto;
+    position:fixed;
+    top: 0%;
+    padding: 40px;
+
+
+}
+.relativePositionDiv{
+    position: relative;
+    background-color: blueviolet;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+
+}
+.absolutePositionDiv{
+    background-color:rosybrown;
+    position: absolute;
+    bottom: 0%;
+    right:-10px;
+    width: 200px;
+    /* border-style: solid; */
+}
