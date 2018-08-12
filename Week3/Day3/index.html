@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang = 'en-us'>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+
+<body>
+
+
+
+<div id='gamecontainer'>
+        <h1>Name that anime character!</h1>
+
+        <div id='imagecontainer'>
+            <img src="#" id='AnimePic' alt = 'Anime Picture' hidden>
+        </div>
+
+<p id='SubScore' class='largeinfo' hidden></p>
+<p id='Guesses' class='largeinfo' hidden>Your guesses:</p>
+
+<p id ='Score' class='largeinfo' hidden>Score: 0 | 0</p>
+<p id ='Tries'  hidden>Tries Left: 10</p>
+<p id ='Characters'  hidden></p>
+<p id ='Win' class='largeinfo' hidden>You win!</p>
+<p id = 'Lose' class='largeinfo' hidden>You lose!</p>
+<p id = 'Done' class='largeinfo' hidden>You have completed all difficulties congratulations!</p>
+<div id = 'DifficultyContainer'>
+    <button class = 'Difficulty' id = 'EasyButton'>EASY</button>
+    <button class = 'Difficulty' id = 'MediumButton'>MEDIUM</button>
+    <button class = 'Difficulty' id = 'HardButton'>HARD</button>
+</div>
+
+<button onclick="game.playAgain()" id = 'AgainButton' hidden >Play Again!</button>
+
+<script src="assets/javascript/game.js"></script>
+</div>
+
+</body>
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy API</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="jumbotron text-center " style="background:#21325a;color: white">
+            <h1> <i class="far fa-newspaper"></i> New York Time Search</h1>
+    </div>
+        <div class="card pb-2">
+        <!--  -->
+        <div class="card-header mg-lg">
+               <i class="fas fa-search pr-1"></i> Search Paramenter
+        </div>
+        <div class="container mt-md-3">
+            <form>
+                <div class="form-group">
+                        <label for="searchTerm" >Search Term</label>
+                        <input type="text" class="form-control" id="searchTerm" placeholder="Example input">
+                        </div>
+                <div class="form-group">
+                       
+                        
+                    <label for="numberOfRecords">Example select</label>
+                    <select class="form-control" id="numberOfRecords">
+                        <option>1</option>
+                        <option>5</option>
+                        <option>10</option>
+                    </select>
+                         
+                </div>
+                <div class="form-group">
+                        <!-- need to be change to a dropdown box -->
+                        <label for="startYear" >Start Year</label>
+                        <input type="text" class="form-control" id="startYear" placeholder="Another input">
+                </div>
+                <div class="form-group">
+                        <!-- need to be change to a dropdown box -->
+                        <label for="endYear" >End Year</label>
+                        <input type="text" class="form-control" id="endYear" placeholder="Another input">
+                </div>
+                <!-- buttoms -->
+                <button class="btn btn-light" type="submit"> <i class="fas fa-search pr-1"></i> Search </button>
+                <button class="btn btn-light" id="clearResults"><i class="fas fa-trash"></i> Clear Results</button>
+            </form>
+
+        </div>
+        </div>
+        <div class="card  mt-md-3">
+                
+            <div class="card-header"> <i class="fa fa-archive pr-1"></i>
+                 Top Articles
+            </div>
+            <div class="card m-3" id="topArticles">
+                    <div class="card-header"> 
+                      some text here
+                   </div>
+            </div>
+                
+            
+        </div>
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+div{
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin: 10px
+}
+h1{
+    background-color: blue;
+    border: 2px solid black;
+    margin: 10px;
+    color: azure;
+    box-sizing: border-box;
+    /* width: 200px; */
+    float: left;
+
+}
+p{
+    box-sizing: border-box;
+    background-color: rgb(53, 250, 69);
+    border: 2px solid black;
+    margin: 10px;
+    color: azure;
+    width: 200px;
+
+  
+}
+a{
+    clear: both;
+    background-color: rgb(250, 230, 53);
+    border: 2px solid black;
+    margin: 10px;
+    color: azure;
+}
